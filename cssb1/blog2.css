@@ -1,0 +1,1101 @@
+* {padding: 0; margin: 0;}
+
+
+menu {
+    position: fixed;
+    width: 100%;
+}
+
+menu nav ul li {
+	float: left;
+	list-style: none;
+	background:#242d35;
+}
+menu nav ul li a {
+	margin-right: 15px;
+	text-decoration: none;
+	padding: 3px 15px;
+}
+
+menu nav ul li ul {
+	display: none;
+    position: absolute;
+	
+}
+
+menu nav ul li:hover > ul {
+	display: block;
+}
+
+menu nav {
+    position: relative;
+	background: #242d35;
+	height: 40px;
+	line-height: 40px;
+	padding: 40px 0;
+	width: auto;
+}
+
+
+
+
+menu nav ul li ul li {
+	float: none;
+	position: relative;
+}
+
+menu nav ul li:hover {background: #242d35;}
+menu nav ul li a:hover {color: white; transition: 1s ease;}
+
+menu nav ul ul ul {
+	left: 100%;
+	top: 0;
+	width: 200px;
+}
+
+menu nav ul li a{
+	color: violet;
+}
+menu nav ul {
+    margin-left:190px;
+  
+    margin-right: 20px;
+    height: 70px;
+    padding-right: -30px ;
+
+}
+
+menu nav ul li ul {
+    margin-left: -1px;
+    padding-top: 10px;
+   
+}
+
+menu img {
+    position: absolute;
+    width:170px;
+    height:50px;
+}
+
+
+menu .pindah img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+menu .pindah {
+
+    height: 70px;
+    width: 500px;
+ 
+    right: 0;
+    position: absolute;
+    margin-top: -20px;
+}
+
+menu .pindah .la {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+menu .pindah .nomor {
+    float: left;
+    margin-top: 20px;
+    border-right: 1px solid violet;
+    padding-right: 15px;
+    
+}
+
+menu .pindah .nomor p{
+    color: violet;
+    
+}
+
+menu .pindah .gt {
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+menu .pindah .gt img {
+    margin-right: 40px;
+}
+
+
+
+menu .pindah .kaca img{
+    width: 60px;
+    height: 60px;
+}
+
+menu .pindah .kaca {
+    margin-top:5px ;
+  
+}
+
+.gambar img {
+    width: 100%;
+    height: 600px;
+}
+
+.gambar .tulisan {
+    color: white;
+    margin-top: -400px;
+   
+    text-align: center;
+}
+
+.gambar .tulisan h1 {
+    font-size: 100px;
+    font-family: "Lucida Handwriting";
+}
+
+.gambar .tulisan p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.gambar .tulisan a {
+    
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.gambar .tulisan a:hover {
+    
+    background-color: red;
+    transition: background 1s ease;
+
+}
+
+.bawahs {
+    height: 470px;
+    background-color: #242d35;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  flex: 1 0 100%;
+  
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  
+  display: grid;
+  place-content: center;
+  display: grid;
+  place-items: center;
+}
+
+.bawahs .cot {
+    width: 1050px;
+    
+
+    position: relative;
+    float: left;
+    height: 400px;
+    border-bottom: 1px solid violet;
+    
+}
+
+.bawahs .cot .satu {
+    width: 250px;
+
+    height: 300px;
+    float: left;
+    margin-right: 10.5px;
+}
+
+.bawahs .cot .satu .gambar img {
+    width: 230px;
+    height: 80px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.bawahs .cot .satu .alamat p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.bawahs .cot .satu .alamat a {
+   
+    color: white;
+    text-decoration: none;
+   
+}
+
+.bawahs .cot .satu .alamat {
+    margin-bottom: 40px;
+}
+
+.bawahs .cot .satu .alamat a:hover {
+   
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .kecil {
+    width: 200px;
+    height: 10px;
+}
+
+.bawahs .cot .satu .kecil .sosial img {
+    width: 20px;
+    height: 20px;
+}
+
+.bawahs .cot .satu .kecil .sosial  {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    float: left;
+    margin-right: 25px;
+}
+
+.bawahs .cot .satu .comp h1{
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.bawahs .cot .satu .pric a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .pric {
+
+    width: 40px;
+}
+
+.bawahs .cot .satu .pric a:hover{
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .pop h1{
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.bawahs .cot .satu .bungkus .kiri a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .bungkus .kanan a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .bungkus .kanan {
+    width: 40px;
+
+    float: left;
+}
+
+.bawahs .cot .satu .bungkus .kiri {
+    width: 30px;
+
+    float: left;
+    margin-right: 100px;
+
+}
+
+.bawahs .cot .satu .bungkus .kanan a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .bungkus .kiri a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .instagram h1 {
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+
+}
+
+.bawahs .satu .kork {
+    width: 240px;
+
+}
+
+.bawahs .satu .krok .kotak img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+ 
+}
+
+.bawahs .satu .krok .kotak  {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+footer .paling p{
+ color: white;
+ display: inline;    
+}
+
+footer .paling {
+
+  
+    margin-top: 435px;
+    position: absolute;
+    margin-left: 300px;
+    width: 800px;
+    
+}
+
+footer .paling a {
+    text-decoration: none;
+    color:white
+}
+
+footer .paling a:hover {
+    color: red;
+transition: color 1s ease;
+
+}
+
+footer {
+    margin-top: 600px;
+}
+
+.blog .kiri {
+ 
+    width: 750px;
+
+    float: left;
+   
+    margin-left: -470px;
+   
+}
+
+.blog .kanan {
+    width: 390px;
+    border: 1px solid black;
+  
+   margin-left: 700px;
+   margin-top: -1400px;
+}
+
+.blog {
+    border: 1px solid black;
+    margin-top: 300px;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+flex: 1 0 100%;
+
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 100%;
+
+display: grid;
+place-content: center;
+display: grid;
+place-items: center;
+}
+
+.blog .kiri .satu {
+    width: 600px;
+
+    border: 1px solid grey;
+    margin-left: 75px;
+    margin-bottom: 25px;
+  
+}
+
+.blog .kiri .satu img {
+    width: 600px;
+ 
+}
+
+.blog .kiri .satu .jan a {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px 27px;
+    font-size: 23px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.blog .kiri .satu .jan  {
+    margin-left: -5px;
+}
+
+.blog .kiri .satu .janu a {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    margin-top: -5px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+
+
+.blog .kiri .satu .ilang:hover a{
+    background-color: rgba(0,0,0,0);
+    transition: background 0.5s ease;
+}
+
+.blog .kiri .satu .ilang:hover a{
+    color: red;
+    transition: color 0.1s ease;
+}
+
+
+
+.blog .kiri .satu .ilang {
+    margin-left: 30px;
+    margin-top: -55px;
+}
+
+.blog .kiri .satu .janu{
+
+    margin-top: 5px;
+}
+
+
+
+.blog .kiri .satu .judul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+.blog .kiri .satu .judul a {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+.blog .kiri .satu .judul a:hover {
+    color: red;
+    transition: color 0.5s ease;
+}
+
+.blog .kiri .satu .isi {
+    
+}
+
+.blog .satu .bawah .ces {
+    float : left;
+    margin-right: 10px;
+    display: block;
+    
+}
+
+.blog .kiri .satu .bawah {
+  
+    margin-top: 25px;
+}
+
+.blog .kiri .satu .bawah .ces a {
+    text-decoration: none;
+    color: gray;
+}
+
+.blog .kiri .satu .bawah .ces a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.blog .kanan .one {
+    width: 350px;
+
+   
+    margin-left: 20px;
+    background-color: #f1f2f6;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+
+.blog .kanan .one .cari {
+    width: 300px;
+    height: 40px;
+   
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.blog .kanan .one .search{
+    width: 300px;
+    height: 40px;
+
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.cari {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    margin: 0 0 30px;
+  }
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 73px 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  
+  }
+
+  input[type="search"]::placeholder {
+    color: #bbb;
+ 
+  }
+
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+  
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #1183d6;
+    outline: none;
+  }
+
+.blog .kanan .one .search{
+    width: 300px;
+    height: 40px;
+   
+    margin-left: 20px;
+
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.blog .kanan .one .search a{
+   text-decoration: none;
+   background-color: yellowgreen;
+   border-radius: 5px;
+   padding: 12px 129px;
+   color: white;
+}
+
+.blog .kanan .one .search a:hover{
+    background-color: red;
+    transition: color 1s ease ;
+ }
+
+.blog .kanan .one .search .atur{
+    margin-top: 11px;
+    
+    
+ }
+
+ .blog .kanan .two {
+    margin-left: 20px;
+    
+    margin-bottom: 30px;
+    background-color: #f1f2f6;
+    width: 350px;
+
+}
+
+.blog .kanan .two .judul .bungkus h1 {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.blog .kanan .two .judul .bungkus {
+    border-bottom: 1px solid violet;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.blog .kanan .two .list {
+    border-bottom: 1px solid violet;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.blog .kanan .two a {
+    margin-bottom: 10px;
+    color: gray;
+    text-decoration: none;
+}
+
+.blog .kanan .two .list a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.blog .kanan .three {
+    width: 350px;
+    margin-left: 20px;
+  
+    background-color: #f1f2f6;
+    margin-bottom: 30px;
+}
+
+.blog .kanan .three .judul {
+    border-bottom: 1px solid violet;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog .kanan .three .judul .bungkus h1 {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.keren img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+}
+
+.keren {
+    border: 1px solid  #f1f2f6;;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 70px;
+
+}
+
+.keren a {
+    margin-bottom: 10px;
+    text-decoration: none ;
+    color: black;
+
+}
+
+.keren p {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: grey;
+}
+
+.keren .wow {
+    margin-top: 10px;
+}
+
+.keren a:hover {
+    color: red;
+    transition: color 1s ease;
+
+}
+
+.blog .kanan .four {
+    width: 350px;
+    margin-left: 20px;
+   
+    background-color: #f1f2f6;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.blog .kanan .four .judul {
+    border-bottom: 1px solid violet;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog .kanan .four .judul .bungkus h1 {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.blog .kanan .four .satu {
+   
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.blog .kanan .four .satu a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 1px 10px;
+    font-size: 14px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.blog .kanan .four .satu a:hover {
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.blog .kanan .four .satu a:hover {
+    background-color: red;
+    transition: background 0.5s ease;
+}
+
+.blog .kanan .five {
+    width: 350px;
+    margin-left: 20px;
+ 
+    background-color: #f1f2f6;
+ 
+}
+
+.blog .kanan .five .judul {
+    border-bottom: 1px solid violet;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog .kanan .five .judul .bungkus h1 {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.blog .kanan .five .pembungkus {
+
+    margin: 0px 20px;
+
+}
+
+.blog .kanan .five .pembungkus img{
+
+    width: 85px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.blog .kanan .six {
+    width: 350px;
+    margin-left: 20px;
+ 
+    background-color: #f1f2f6;
+    margin-top: 30px;
+    height: 140px;
+    
+}
+
+
+
+.blog .kanan .six .email {
+    width: 300px;
+    height: 40px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.blog .kanan .six .search{
+    width: 300px;
+    height: 40px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.blog .kanan .six .search a{
+   text-decoration: none;
+   background-color: yellowgreen;
+   border-radius: 5px;
+   padding: 12px 120px;
+   color: white;
+  
+}
+
+.blog .kanan .six .search a:hover{
+    background-color: red;
+    transition: background 1s ease;
+   
+ }
+
+.blog  .kanan .six .email input{
+   padding-top: 10px;
+   padding-right: 125px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   border-radius: 5px;
+   margin-bottom: 15px;
+   margin-top: 20px;
+}
+
+.dipsi {
+    text-align: center;
+    margin-top: 100px;
+  
+}
+
+.dipsi a {
+    padding: 10px 15px;
+    margin-right: 5px;
+    color: black;
+    text-decoration: none;
+    background-color: #bbb;
+    border: 1px solid black;
+}
+
+.dipsi a:hover {
+   color: red;
+   transition: color 0.2s ease;
+}
+
+.dipsi a:hover {
+    background-color: aliceblue;
+    transition: background 0.2s ease;
+ }
+
+ .blog .kiri .satu .luffy {
+    margin-top: 60px;
+    margin-bottom: 30px;
+ }
+
+ .blog .kiri .satu .luffy p{
+    color: grey;
+ 
+ }
+
+ .blog .kiri .satu .luffy .sis{
+    margin-bottom: 20px;
+ }
+
+ .blog .kiri .satu .naruto{
+    background-color: #bdc3c7;
+    height: 150px;
+    padding-top: 25px;
+ }
+
+ .blog .kiri .satu .naruto .jutsu {
+    border-left: 2px solid black;
+    width: 500px;
+    height: 100px;
+    margin-left: 35px;
+    background-color: white;
+    padding: 15px;
+   
+ }
+
+ .blog .kiri .satu .naruto .jutsu .bro{
+   width: 450px;
+   margin-left: 25px;
+ }
+
+ .blog .kiri .satu .luffy1 {
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+
+ }
+
+ .blog .kiri .satu .luffy1 p{
+    color: grey;
+ 
+ }
+
+ .blog .kiri .satu .luffy1 .sis{
+    margin-bottom: 20px;
+ }
+
+ .part2{
+
+
+    width: 600px;
+    margin-left: 75px;
+    height: 300px;
+ }
+
+ .part2 .love {
+    
+   border: 1px solid black;
+    float: left;
+ }
+
+ .part2 .lo{
+    
+   border: 1px solid black;
+    height: 20px;
+    width: 190px;
+    float: right;
+ }
+
+ .part2 .lo img{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-left: 20px;
+ }
+
+ .part2 .ribet .kiri img {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    float: left;
+ }
+
+ .part2 .ribet .kiri  {
+    border: 1px solid black;
+ }
+
+ .part2 .iki {
+    border: 1px solid black;
+    height: 25px;
+ }
+
+ .ribet {
+    width: 598px;
+    border: 1px solid black;
+    height: 65px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 40px;
+ }
+
+ .ribet .kiri {
+    margin-left: 1px;
+    width: 290px;
+   
+ }
+
+ .ribet .kiri p {
+    color:grey;
+    margin-bottom: 5px;
+    font-size: 15px;
+ }
+
+ .ribet .kiri a {
+     text-decoration: none;
+     font-size: 20px;
+     color: black;
+ }
+
+ .ribet .kiri a:hover {
+    color: red;
+    transition: color 0.5s ease;
+}
+
+.ribet .kiri .panah a{
+    color: white;
+
+    margin-left: -43px;
+    padding-top: 11px;
+    padding-right: 13px;
+   
+    padding-left:13px ;
+
+}
+
+.ribet .kiri .panah {
+margin-top: 11px;
+display: none;
+width: 45px;
+height: 45px;
+
+
+}
+
+.ribet .kiri:hover .panah{
+    background-color: rgba(0,0,0,0.7);
+    transition: all 1s ease;
+    display: block;
+
+}
+
+.orang img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.orang {
+    background-color:#f1f2f6 ;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.orang .isi {
+    width: 500px;
+  
+    margin-left: 50px;
+ 
+}
+
+.orang .isi a {
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.orang .isi p {
+    color: gray;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.orang .isi a:hover {
+    color: red;
+    transition: color 0.5s ease;
+}
+
+.ya {
+    padding-bottom: 30px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 35px;
+}

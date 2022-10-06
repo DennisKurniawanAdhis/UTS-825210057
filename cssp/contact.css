@@ -1,0 +1,551 @@
+* {padding: 0; margin: 0;}
+
+body {
+    background-color: #c05805;
+}
+
+menu {
+    position: fixed;
+    width: 100%;
+}
+
+menu nav ul li {
+	float: left;
+	list-style: none;
+	background:#242d35;
+}
+menu nav ul li a {
+	margin-right: 15px;
+	text-decoration: none;
+	padding: 3px 15px;
+}
+
+menu nav ul li ul {
+	display: none;
+    position: absolute;
+	
+}
+
+menu nav ul li:hover > ul {
+	display: block;
+}
+
+menu nav {
+    position: relative;
+	background: #242d35;
+	height: 40px;
+	line-height: 40px;
+	padding: 40px 0;
+	width: auto;
+    border-radius: 60px;
+}
+
+
+
+
+menu nav ul li ul li {
+	float: none;
+	position: relative;
+}
+
+menu nav ul li:hover {background: #242d35;}
+menu nav ul li a:hover {color: white; transition: 1s ease;}
+
+menu nav ul ul ul {
+	left: 100%;
+	top: 0;
+	width: 200px;
+}
+
+menu nav ul li a{
+	color: violet;
+}
+menu nav ul {
+    margin-left:190px;
+  
+    margin-right: 20px;
+    height: 70px;
+    padding-right: -30px ;
+
+}
+
+menu nav ul li ul {
+    margin-left: -1px;
+    padding-top: 10px;
+   
+}
+
+menu .tar img {
+    position: absolute;
+    width:170px;
+    height:50px;
+    border-radius: 60px;
+}
+
+
+menu .pindah img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+menu .pindah {
+
+    height: 70px;
+    width: 500px;
+ 
+    right: 0;
+    position: absolute;
+    margin-top: -20px;
+}
+
+menu .pindah .la {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+menu .pindah .nomor {
+    float: left;
+    margin-top: 20px;
+    border-right: 1px solid violet;
+    padding-right: 15px;
+    
+}
+
+menu .pindah .nomor p{
+    color: violet;
+    
+}
+
+menu .pindah .gt {
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+menu .pindah .gt img {
+    margin-right: 40px;
+}
+
+
+
+menu .pindah .kaca img{
+    width: 60px;
+    height: 60px;
+}
+
+menu .pindah .kaca {
+    margin-top:5px ;
+  
+}
+
+
+.gambar img {
+    width: 100%;
+    height: 600px;
+}
+
+.gambar .tulisan {
+    color: white;
+    margin-top: -400px;
+   
+    text-align: center;
+}
+
+.gambar .tulisan h1 {
+
+    font-size: 100px;
+    font-family: "Lucida Handwriting";
+}
+
+.gambar .tulisan p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.gambar .tulisan a {
+    
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.gambar .tulisan a:hover {
+    
+    background-color: red;
+    transition: background 1s ease;
+
+}
+
+article {
+    width: 100%;
+ 
+
+    justify-content: center;
+    align-items: center;
+  
+
+  
+  display: grid;
+  place-content: center;
+
+  place-items: center;
+}
+
+article iframe{
+ 
+    border-radius: 10px;
+    margin-top: 250px;
+}
+
+form {
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  
+
+  
+  display: grid;
+  place-content: center;
+
+  place-items: center;
+}
+
+.daftar {
+    width: 1000px;
+ 
+  
+ 
+    margin-top: 50px;
+}
+textarea {
+    width: 640px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.daftar .kiri {
+    width: 700px;
+   
+ 
+ 
+   float: left;
+   margin-right: 45px;
+}
+
+.daftar .kanan {
+    width: 250px;
+ 
+   
+  
+  float: right;
+}
+
+input  {
+   padding-left: 10px;
+}
+.daftar .kiri .bungkus {
+
+    height: 40px;
+    margin-bottom: 20px;
+    width: 660px;
+}
+.pls {
+    float: left;
+    margin-right: 25px;
+}
+.daftar .kiri h1 {
+    margin-bottom: 20px;
+}
+
+.daftar .kiri .bungkus input {
+    padding: 10px 132px 10px 10px;
+    
+}
+
+.daftar .kiri .keren input {
+    padding: 10px 463px 10px 10px;
+    
+}
+
+.daftar .kiri .keren {
+    margin-bottom: 30px;
+}
+
+.kiri input {
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+.kiri sections input {
+    margin-right: 22px;
+}
+
+.kiri section input {
+    width: 640px;
+}
+
+textarea {
+    font-family: 'Arial';
+    font-size: 14px;
+    resize: none;
+}
+
+.daftar .kiri .send a {
+    background-color: yellowgreen;
+    padding:10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.daftar .kiri .send a:hover {
+    background-color: red;
+    transition: background 1s ease;
+
+}
+
+.daftar .kanan .bungkus {
+  
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.daftar .kanan .bungkus img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.daftar .kanan .spasi {
+    margin-top: 55px;
+}
+
+.daftar .kanan .spasi .bungkus p{
+    margin-left: 45px;
+
+}
+
+.send {
+    margin-top: 50px;
+}
+
+.bawahs {
+    height: 470px;
+    background-color: #242d35;
+    margin-top: -300px;
+    
+justify-content: center;
+align-items: center;
+display: grid;
+place-content: center;
+place-items: center;
+
+
+}
+
+.bawahs .cot {
+    width: 1050px;
+    
+
+    position: relative;
+    float: left;
+    height: 400px;
+    border-bottom: 1px solid violet;
+    
+}
+
+.bawahs .cot .satu {
+    width: 250px;
+
+    height: 300px;
+    float: left;
+    margin-right: 10.5px;
+}
+
+.bawahs .cot .satu .gambar img {
+    width: 230px;
+    height: 80px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.bawahs .cot .satu .alamat p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.bawahs .cot .satu .alamat a {
+   
+    color: white;
+    text-decoration: none;
+   
+}
+
+.bawahs .cot .satu .alamat {
+    margin-bottom: 40px;
+}
+
+.bawahs .cot .satu .alamat a:hover {
+   
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .kecil {
+    width: 200px;
+    height: 10px;
+}
+
+.bawahs .cot .satu .kecil .sosial img {
+    width: 20px;
+    height: 20px;
+}
+
+.bawahs .cot .satu .kecil .sosial  {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    float: left;
+    margin-right: 25px;
+}
+
+.bawahs .cot .satu .comp h1{
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.bawahs .cot .satu .pric a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .comp {
+    margin-left: 80px;
+}
+.bawahs .cot .satu .pric {
+    margin-left: 80px;
+    width: 40px;
+}
+
+
+.bawahs .cot .satu .pric a:hover{
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .pop h1{
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.bawahs .cot .satu .bungkus .kiri a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .bungkus .kanan a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .bungkus .kanan {
+    width: 40px;
+
+    float: left;
+}
+
+.bawahs .cot .satu .bungkus .kiri {
+    width: 30px;
+
+    float: left;
+    margin-right: 100px;
+
+}
+
+.bawahs .cot .satu .bungkus .kanan a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .bungkus .kiri a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .instagram h1 {
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+
+}
+
+.bawahs .satu .kork {
+    width: 240px;
+
+}
+
+.bawahs .satu .krok .kotak img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+ 
+}
+
+.bawahs .satu .krok .kotak  {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+footer .paling p{
+ color: white;
+ display: inline;    
+}
+
+footer .paling {
+
+  
+    margin-top: 435px;
+    position: absolute;
+    margin-left: 300px;
+    width: 800px;
+    
+}
+
+footer .paling a {
+    text-decoration: none;
+    color:white
+}
+
+footer .paling a:hover {
+    color: red;
+transition: color 1s ease;
+
+}
+
+footer {
+    margin-top: 600px;
+    
+}
+

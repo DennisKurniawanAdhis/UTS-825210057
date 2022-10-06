@@ -1,0 +1,1191 @@
+* {padding: 0; margin: 0;}
+
+body {
+    background-color: #c05805;
+   
+}
+menu {
+    position: fixed;
+    width: 100%;
+}
+
+menu nav ul li {
+	float: left;
+	list-style: none;
+	background:#242d35;
+}
+menu nav ul li a {
+	margin-right: 15px;
+	text-decoration: none;
+	padding: 3px 15px;
+}
+
+menu nav ul li ul {
+	display: none;
+    position: absolute;
+	
+}
+
+menu nav ul li:hover > ul {
+	display: block;
+}
+
+menu nav {
+    position: relative;
+	background: #242d35;
+	height: 40px;
+	line-height: 40px;
+	padding: 40px 0;
+	width: auto;
+    border-radius: 60px;
+   
+}
+
+
+
+
+menu nav ul li ul li {
+	float: none;
+	position: relative;
+}
+
+menu nav ul li:hover {background: #242d35;}
+menu nav ul li a:hover {color: white; transition: 1s ease;}
+
+menu nav ul ul ul {
+	left: 100%;
+	top: 0;
+	width: 200px;
+}
+
+menu nav ul li a{
+	color: violet;
+}
+menu nav ul {
+    margin-left:190px;
+  
+    margin-right: 20px;
+    height: 70px;
+    padding-right: -30px ;
+
+}
+
+menu nav ul li ul {
+    margin-left: -1px;
+    padding-top: 10px;
+   
+}
+
+menu .tar img {
+    position: absolute;
+    width:170px;
+    height:50px;
+    border-radius: 60px;
+}
+
+
+menu .pindah img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+menu .pindah {
+
+    height: 70px;
+    width: 500px;
+ 
+    right: 0;
+    position: absolute;
+    margin-top: -20px;
+}
+
+menu .pindah .la {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+menu .pindah .nomor {
+    float: left;
+    margin-top: 20px;
+    border-right: 1px solid violet;
+    padding-right: 15px;
+    
+}
+
+menu .pindah .nomor p{
+    color: violet;
+    
+}
+
+menu .pindah .gt {
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+menu .pindah .gt img {
+    margin-right: 40px;
+}
+
+
+
+menu .pindah .kaca img{
+    width: 60px;
+    height: 60px;
+}
+
+menu .pindah .kaca {
+    margin-top:5px ;
+    
+}
+
+
+
+.gambar img {
+    width: 100%;
+    height: 600px;
+}
+
+.gambar .tulisan {
+    color: white;
+    margin-top: -400px;
+   
+    text-align: center;
+}
+
+.gambar .tulisan h1 {
+    font-size: 100px;
+    font-family: "Lucida Handwriting";
+}
+
+.gambar .tulisan p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.gambar .tulisan a {
+    
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.gambar .tulisan a:hover {
+    
+    background-color: red;
+    transition: background 1s ease;
+
+}
+
+.where {
+    margin-top: 150px ;
+    width: 100%;
+    text-align: center;
+    background-color: #242d35;
+    padding: 50px 0;
+}
+
+.where h1 {
+    position: relative;
+    color: white;
+    margin-left: -900px;
+   margin-top: 30px;
+   
+}
+
+.where .inputs {
+    margin-top: -45px;
+    margin-left: 150px;
+}
+
+.where .inputs input {
+    padding: 20px 10px;
+    color: white;
+    background-color: #242d35;
+    border: 1px solid white;
+}
+
+.where tr td input{
+    padding: 20px 10px;
+    color: white;
+    background-color: #242d35;
+    border: 1px solid white;
+}
+
+
+.where a {
+    color: white;
+    text-decoration: none;
+    
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px 30px;
+    
+}
+
+.where a:hover {
+    
+    background-color: yellowgreen;
+    transition: background 1s ease;
+
+}
+
+.where select {
+    padding: 20px 10px;
+    color: white;
+    background-color: #242d35;
+}
+
+.pds {
+    margin-top: 50px;
+    
+ 
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.pds h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.pds p {
+    color: white;
+    text-align: center;
+
+    
+}
+
+.naik .bungkus img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.naik .bungkus {
+    transition: top ease 0.5;
+   
+   margin-right: 40px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.naik .tengah {
+    width: 1000px;
+    margin-left: 170px;
+  
+}
+.naik {
+    width: 100%;
+    
+ 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -500px;
+ 
+
+
+  place-content: center;
+  display: grid;
+  place-items: center;
+}
+
+.naik .bungkus p{
+    color: white;
+    margin-left: 20px;
+ 
+    margin-top: -40px;
+}
+
+.naik .bungkus a {
+    
+    color: white;
+    background-color: yellowgreen;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+    
+    width: 80px;
+
+    margin-left: 70px;
+}
+
+.naik .tengah .bungkus .places {
+    margin-top: -17px;
+}
+
+.naik .bungkus:hover p{
+
+    color: red;
+    transition: color 1s ease;
+
+}
+
+.naik .bungkus:hover a {
+    background-color: red;
+    transition: background 1s ease;
+}
+
+.naik .bungkus a:hover {
+    background-color: red;
+    transition: background 1s ease;
+}
+
+.naik .bungkus:hover img{
+
+    margin-top: -10px;
+    transition: all 1s ease;
+}
+
+.naik .bungkus:hover p{
+    transform: none;
+    
+}
+
+.subs1{
+
+    width: 100%;
+    text-align: center;
+    background-color: #242d35;
+    margin-top: 150px;
+    padding: 50px 0;
+}
+
+.subs1 .isi1 p {
+    color: white;
+    margin-left: -740px;
+    
+}
+
+.subs1 .isi1 h1 {
+    color: white;
+    margin-left: -825px;
+}
+
+.subs1 .inputs1 {
+    margin-top: -45px;
+    margin-left: 350px;
+}
+
+.subs1 .inputs1 input {
+    padding: 20px 10px;
+}
+
+.subs1 .inputs1 select {
+    padding: 21px 10px;
+}
+
+
+.subs1 a {
+    color: white;
+    text-decoration: none;
+    
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px 30px;
+    
+}
+
+.subs1 a:hover {
+    
+    background-color: yellowgreen;
+    transition: background 1s ease;
+
+}
+
+.subs {
+    margin-top: 150px ;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(white, #242d35, #242d35);
+    margin-top: 600px;
+    padding: 50px 0;
+}
+
+.subs .isi p {
+    color: white;
+    margin-left: -740px;
+    
+}
+
+.subs .isi h1 {
+    color: white;
+    margin-left: -825px;
+}
+
+.subs .inputs {
+    margin-top: -45px;
+    margin-left: 350px;
+}
+
+.subs .inputs input {
+    padding: 20px 10px;
+}
+
+
+.subs a {
+    color: white;
+    text-decoration: none;
+    
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px 30px;
+    
+}
+
+.subs a:hover {
+    
+    background-color: yellowgreen;
+    transition: background 1s ease;
+
+}
+
+.ggs {
+    margin-top: 150px;
+
+
+    width: 100%;
+}
+
+.ggs h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.ggs p {
+    color: white;
+    text-align: center;
+
+    
+}
+
+
+.pembungkus {
+    padding-top: 300px;
+    padding-left: 170px;
+    padding-right: 170px;
+    width: 1000px;
+    height: auto;
+   
+}
+
+.pembungkus .bungkus {
+    width: 202px;
+    height: 302px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+.pembungkus .bungkus img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.pembungkus .bungkus .harga a {
+    position: relative;
+    text-decoration: none;
+  
+    color: white;
+  
+}
+
+.pembungkus .bungkus .harga {
+    background-color: yellowgreen;
+    width: 50px;
+    text-align: center;
+    height: 25px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -185px;
+    margin-left: 20px;
+    padding-top: 3px;
+
+}
+
+.pembungkus .bungkus:hover .harga {
+    background-color: crimson;
+    transition: background 1s ease;
+  
+}
+
+.pembungkus .bungkus .bawah .nama a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.pembungkus .bungkus:hover .nama a {
+    color: red;
+    transition: color 1s ease;
+   
+}
+
+.pembungkus .bungkus .bawah .nama {
+    padding-bottom: 5px;
+}
+
+.pembungkus .bungkus .bawah p{
+    margin-left: 15px;
+    color: gray;
+}
+
+.pembungkus .bungkus .bawah .star p{
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    float: left;
+   position: relative;
+    
+}
+
+.pembungkus .bungkus .bawah .rev a {
+    text-decoration: none;
+    color: gray;
+  
+    margin-left: -60px;
+    margin-top: 20px;
+}
+.pembungkus .bungkus .bawah .rev {
+    margin-top: -50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.pembungkus .bungkus .bawah .days a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 65px;
+    margin-top: 19px;
+}
+
+.jam {
+    margin-top: -22px;
+    margin-left: 110px;
+  
+}
+
+
+.more {
+    width: 100%;
+    text-align: center;
+  
+
+    margin-top: 100px;
+}
+
+
+
+
+
+.more a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.more a:hover {
+    background-color: yellowgreen;
+    transition: background 1s ease;
+}
+
+
+
+.pemandangan {
+    padding-top: 300px;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-top: -200px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    
+    
+
+}
+
+.pemandangan .bungkus {
+  
+    height: 300px;
+   
+   background-color: #db9501;
+    border-radius: 10px;
+    float: left;
+    margin-left: 75px;
+    margin-bottom: 30px;
+   
+}
+
+.pemandangan .tengah {
+    width: 1000px;
+
+    height: 700px;
+ 
+    margin-left: 100px;
+}
+
+
+
+.pemandangan .bungkus img {
+    height: 200px;
+    width: 200px;
+   
+    border-radius: 10px;
+    
+}
+
+.pemandangan .bungkus .harga a {
+
+    text-decoration: none;
+ 
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    padding :5px 10px;
+  
+}
+
+.pemandangan .bungkus:hover .harga a {
+
+    background-color: red;
+    transition: background 1s ease;
+  
+}
+
+.pemandangan .bungkus .harga {
+    background-color: yellowgreen;
+    width: 60px;
+    text-align: center;
+    height: 25px;
+    border-radius: 20px;
+   margin-top: -185px;
+    margin-left: 20px;
+    margin-bottom: 160px;
+    
+
+}
+
+.pemandangan .bungkus:hover .harga {
+    background-color: crimson;
+    transition: background 1s ease;
+  
+}
+
+.pemandangan .tengah .bungkus .bawah .a {
+    margin-top: 150px;
+}
+
+.pemandangan .bungkus .bawah .nama a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.pemandangan .bungkus:hover .nama a {
+    color: #f6e58d;
+    transition: color 1s ease;
+   
+}
+
+.pemandangan .bungkus .bawah .nama {
+    padding-bottom: 5px;
+}
+
+.pemandangan .bungkus .bawah p{
+    margin-left: 15px;
+    color: #535c68;
+}
+
+.pemandangan .bungkus .bawah .star p{
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+    float: left;
+
+    
+}
+
+.pemandangan .bungkus .bawah .rev a {
+    text-decoration: none;
+    color: #535c68;
+    margin-top: 150px;
+    margin-left: -60px;
+    
+}
+
+.pemandangan .bungkus .bawah .rev {
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.pemandangan .bungkus .bawah .days a {
+    text-decoration: none;
+    color: #535c68;
+  
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.pemandangan .bungkus .bawah .days {
+    margin-top: -15px;
+}
+
+.pemandangan .bungkus:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+
+}
+
+.video {
+    margin-top: 150px;
+}
+.video img {
+    width: 100%;
+    height: 500px;
+}
+
+.video .tulisan {
+    color: white;
+    margin-top: -400px;
+   
+    text-align: center;
+}
+
+.video .tulisan h1 {
+    font-size: 100px;
+    font-family: "Lucida Handwriting";
+}
+
+.video .tulisan p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+
+.video .tulisan img {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.tiga {
+    margin-top: 300px;
+justify-content: center;
+align-items: center;
+display: grid;
+place-content: center;
+place-items: center;
+
+
+ 
+}
+
+.tiga .bungkus {
+
+    width: 250px;
+    text-align: center;
+    height: auto;
+    float: left;
+ 
+    margin-right: 90px;
+}
+
+.tiga .bungkus h1 {
+    font-size: 20px;
+    margin-bottom: 15px ;
+}
+
+.tiga .bungkus p {
+    color: white;
+}
+
+.tiga .bungkus img {
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.container {
+    padding-left: 100px;
+}
+
+.geser img {
+    border-radius: 100%;
+    width : 150px;
+    height: 110px;
+    position: none;
+}
+.geser {
+    text-align: center;
+  
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    background-color: antiquewhite;
+    
+justify-content: center;
+align-items: center;
+display: grid;
+place-content: center;
+place-items: center;
+
+
+   
+}
+
+.geser section img {
+    width: 70px;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: 120px;
+}
+
+.geser .saya {
+    width: 450px;
+  
+    padding-top: 20px;
+    padding-top: -300px;
+  
+    text-align: center;
+    
+}
+
+.geser .saya p {
+    color: gray;
+}
+
+.geser .saya .pep p {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.geser .saya .bulet {
+    border-radius: 100%;
+    background-color: orangered;
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+
+.geser .saya .buletin {
+    width: 50px;
+    height: 20px;
+
+    float: left;
+    text-align: center;
+  
+    margin-left: 210px;
+    margin-top: 20px;
+  
+}
+
+.geser .gerak {
+    width: 50px;
+    height: 50px;
+
+    
+}
+.tips {
+    margin-top: 150px;
+   
+
+    width: 100%;
+
+}
+
+.tips h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+.tur {
+   margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  flex: 1 0 100%;
+  
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  
+  display: grid;
+  place-content: center;
+  display: grid;
+  place-items: center;
+    
+}
+.tur .untuk {
+    width: 1000px;
+    height: 800px;
+ 
+
+}
+
+.tur .untuk .ini img{
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tur .untuk .ini {
+
+    width: 280px;
+   
+    float: left;
+    margin-left: 50px;
+}
+.tur .untuk .ini p {
+    margin-bottom: 20px;
+}
+
+.tur .untuk .ini a {
+    text-decoration: none;
+    font-size: 26px;
+    color: black;
+
+}
+
+.tur .untuk .ini:hover a {
+    color: #f6e58d;
+    transition: color 1s ease;
+}
+
+.bawahs {
+    height: 470px;
+    background-color: #242d35;
+    margin-top: -300px;
+
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    
+    
+}
+
+.bawahs .cot {
+    width: 1050px;
+    
+
+    position: relative;
+    float: left;
+    height: 400px;
+    border-bottom: 1px solid violet;
+    
+}
+
+.bawahs .cot .satu {
+    width: 250px;
+
+    height: 300px;
+    float: left;
+    margin-right: 10.5px;
+}
+
+.bawahs .cot .satu .gambar img {
+    width: 230px;
+    height: 80px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.bawahs .cot .satu .alamat p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.bawahs .cot .satu .alamat a {
+   
+    color: white;
+    text-decoration: none;
+   
+}
+
+.bawahs .cot .satu .alamat {
+    margin-bottom: 40px;
+}
+
+.bawahs .cot .satu .alamat a:hover {
+   
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .kecil {
+    width: 200px;
+    height: 10px;
+}
+
+.bawahs .cot .satu .kecil .sosial img {
+    width: 20px;
+    height: 20px;
+}
+
+.bawahs .cot .satu .kecil .sosial  {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    float: left;
+    margin-right: 25px;
+}
+
+.bawahs .cot .satu .comp h1{
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.bawahs .cot .satu .comp {
+    margin-left: 80px;
+}
+.bawahs .cot .satu .pric a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .comp {
+    margin-left: 80px;
+}
+.bawahs .cot .satu .pric {
+    margin-left: 80px;
+    width: 40px;
+}
+
+.bawahs .cot .satu .pric a:hover{
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .pop h1{
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.bawahs .cot .satu .bungkus .kiri a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .bungkus .kanan a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.bawahs .cot .satu .bungkus .kanan {
+    width: 40px;
+
+    float: left;
+}
+
+.bawahs .cot .satu .bungkus .kiri {
+    width: 30px;
+
+    float: left;
+    margin-right: 100px;
+
+}
+
+.bawahs .cot .satu .bungkus .kanan a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .bungkus .kiri a:hover {
+    color: red;
+    transition: color 1s ease;
+}
+
+.bawahs .cot .satu .instagram h1 {
+    color: white;
+    margin-bottom:40px ;
+    font-size: 25px;
+    margin-top: 40px;
+
+}
+
+.bawahs .satu .kork {
+    width: 240px;
+
+}
+
+.bawahs .satu .krok .kotak img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+ 
+}
+
+.bawahs .satu .krok .kotak  {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+footer .paling p{
+ color: white;
+ display: inline;    
+}
+
+footer .paling {
+
+  
+    margin-top: 435px;
+    position: absolute;
+    margin-left: 300px;
+    width: 800px;
+    
+}
+
+footer .paling a {
+    text-decoration: none;
+    color:white
+}
+
+footer .paling a:hover {
+    color: red;
+transition: color 1s ease;
+
+}
